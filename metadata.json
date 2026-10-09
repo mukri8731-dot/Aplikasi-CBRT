@@ -1,0 +1,6 @@
+{
+  "name": "AsesmenPRO - Sistem Ujian & Asesmen Digital Terproteksi",
+  "description": "Platform ujian dan asesmen digital modern dengan mode aman Kiosk, deteksi pelanggaran real-time, autosave terpusat, bank soal multi-tipe, dan audit log lengkap untuk guru dan siswa di Indonesia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

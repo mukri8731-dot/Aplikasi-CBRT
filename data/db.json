@@ -1,0 +1,732 @@
+{
+  "exams": [
+    {
+      "id": "exam-matematika-x",
+      "code": "MAT-X-2026",
+      "pin": "8821",
+      "title": "Penilaian Sumatif Akhir Semester (PSAS): Matematika & Logika Komputasi",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "Kelas X MIPA",
+      "teacherName": "Guru Pengawas / Proktor",
+      "teacherId": "teacher-1",
+      "startTime": "2026-10-07T11:10:53.638Z",
+      "endTime": "2026-10-10T12:10:53.639Z",
+      "isActive": false,
+      "instructions": "1. Ujian ini diawasi oleh sistem proteksi Exam Kiosk Mode.\n2. Harap pastikan koneksi internet stabil sebelum menekan tombol 'Mulai Ujian'.\n3. Selama ujian berlangsung, layar akan beralih ke mode Fullscreen.\n4. DILARANG berpindah tab, membuka jendela aplikasi lain, meminimalkan browser, melakukan copy/paste, atau mengambil tangkapan layar.\n5. Setiap tindakan mencurigakan akan dicatat secara otomatis dalam Audit Log Guru Pengawas.\n6. Melebihi batas maksimal pelanggaran (3 kali) akan menangguhkan ujian dan membutuhkan verifikasi pengawas di ruang kelas.\n7. Jawaban tersimpan otomatis secara berkala (Auto-save). Jika koneksi sempat terputus, jawaban Anda tetap aman.\n8. Berdoalah sebelum mulai mengerjakan dan utamakan kejujuran.",
+      "settings": {
+        "durationMinutes": 45,
+        "kkm": 75,
+        "requireFullscreen": true,
+        "maxViolationsAllowed": 3,
+        "violationAction": "suspend",
+        "proctorPin": "9922",
+        "shuffleQuestions": false,
+        "shuffleOptions": false,
+        "blockCopyPaste": true,
+        "blockRightClick": true,
+        "showResultToStudent": true,
+        "showExplanationToStudent": true,
+        "preventMultipleSubmissions": true,
+        "autoSaveIntervalSeconds": 5
+      },
+      "createdAt": "2026-10-05T12:10:53.639Z",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "passage": "Dalam sistem pengolahan data terdistribusi di laboratorium sekolah, terdapat relasi antara waktu komputasi (t dalam detik) dan ukuran input n yang dirumuskan dengan fungsi eksponensial f(x) = 2^(x - 1) + 3.",
+          "prompt": "Berdasarkan model fungsi di atas, berapakah nilai f(4) yang merepresentasikan waktu pemrosesan data saat x = 4?",
+          "options": [
+            {
+              "id": "A",
+              "text": "9 detik"
+            },
+            {
+              "id": "B",
+              "text": "11 detik"
+            },
+            {
+              "id": "C",
+              "text": "15 detik"
+            },
+            {
+              "id": "D",
+              "text": "19 detik"
+            },
+            {
+              "id": "E",
+              "text": "21 detik"
+            }
+          ],
+          "correctOptionId": "B",
+          "points": 20,
+          "explanation": "Perhitungan: f(4) = 2^(4 - 1) + 3 = 2^3 + 3 = 8 + 3 = 11 detik. Pilihan yang tepat adalah B."
+        },
+        {
+          "id": "q2",
+          "type": "true_false",
+          "passage": "Keamanan Asesmen Digital: Dalam protokol sistem Computer-Based Testing (CBT) berbasis Web, browser modern membatasi akses perangkat keras tanpa izin eksplisit pengguna.",
+          "prompt": "Pernyataan: \"Web Browser standar (seperti Chrome/Edge) secara teknis mampu mengunci tombol keyboard OS seperti Win-Key atau Ctrl+Alt+Del 100% tanpa bantuan aplikasi Kiosk khusus seperti Safe Exam Browser (SEB) atau Managed Chromebook.\"",
+          "isTrue": false,
+          "points": 15,
+          "explanation": "Pernyataan ini SALAH. Kebijakan sandbox keamanan W3C browser modern tidak mengizinkan web app memblokir OS shortcut level kernel (seperti Win-key atau Ctrl+Alt+Del). Penguncian tingkat perangkat keras memerlukan Kiosk Mode khusus atau software SEB (Safe Exam Browser)."
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "prompt": "Diketahui sistem persamaan linear kuadrat: jika x + y = 10 dan x * y = 21 dengan x > y, maka nilai dari x - y adalah...",
+          "options": [
+            {
+              "id": "A",
+              "text": "2"
+            },
+            {
+              "id": "B",
+              "text": "4"
+            },
+            {
+              "id": "C",
+              "text": "5"
+            },
+            {
+              "id": "D",
+              "text": "7"
+            },
+            {
+              "id": "E",
+              "text": "9"
+            }
+          ],
+          "correctOptionId": "B",
+          "points": 20,
+          "explanation": "Dua bilangan yang dijumlahkan menghasilkan 10 dan dikalikan menghasilkan 21 adalah 7 dan 3. Karena x > y, maka x = 7 dan y = 3. Maka x - y = 7 - 3 = 4. Jawaban yang benar adalah B."
+        },
+        {
+          "id": "q4",
+          "type": "short_answer",
+          "passage": "Prinsip Integritas Asesmen Digital: Mekanisme penyimpanan berkala yang menjaga jawaban peserta didik tidak hilang saat koneksi internet sekolah sempat berfluktuasi atau terputus.",
+          "prompt": "Sebutkan istilah teknis dalam bahasa Inggris untuk fitur penyimpanan otomatis data jawaban tersebut secara berkala (satu kata majemuk / istilah baku):",
+          "correctShortAnswerKeywords": [
+            "autosave",
+            "auto save",
+            "auto-save"
+          ],
+          "points": 20,
+          "explanation": "Istilah teknis tersebut adalah \"Autosave\" (atau auto-save), yaitu mekanisme penyimpanan state jawaban secara periodik di background tanpa memerlukan klik tombol manual."
+        },
+        {
+          "id": "q5",
+          "type": "essay",
+          "passage": "Studi Kasus Integritas Asesmen Digital di Sekolah:\nSeorang guru mendapati audit log seorang siswa mencatat 2 kali perpindahan tab (window blur) dan 1 kali keluar dari fullscreen selama 3 detik saat mengerjakan asesmen.",
+          "prompt": "Jelaskan mengapa sistem asesmen digital modern tidak boleh langsung menghapus seluruh jawaban siswa saat terjadi pelanggaran, dan langkah apa yang harus dilakukan guru pengawas berdasarkan audit log tersebut?",
+          "essayRubric": "Kriteria Penilaian: (1) Menyebutkan prinsip keadilan & kemungkinan faktor teknis ketidaksengajaan/pop-up OS (skor maks 10); (2) Prosedur verifikasi langsung dan konfirmasi pengawas tanpa mendiskualifikasi sepihak (skor maks 15). Total poin: 25.",
+          "points": 25,
+          "explanation": "Jawaban yang tepat harus mencakup: 1) Perlindungan hak siswa terhadap insiden teknis (seperti notifikasi OS, kepencet tombol Esc, atau gangguan koneksi) sehingga jawaban harus tetap tersimpan aman (data integrity); 2) Guru pengawas melakukan klarifikasi langsung di tempat, memeriksa rekaman audit log waktu kejadian, dan mengambil tindakan proporsional."
+        }
+      ]
+    },
+    {
+      "id": "exam-anbk-literasi",
+      "code": "LIT-XI-2026",
+      "pin": "7734",
+      "title": "Simulasi ANBK: Asesmen Literasi Membaca & Sains Lingkungan",
+      "subject": "Literasi & Lingkungan Hidup",
+      "gradeClass": "Kelas XI",
+      "teacherName": "Guru Pengawas / Proktor",
+      "teacherId": "teacher-1",
+      "startTime": "2026-10-07T10:10:53.639Z",
+      "endTime": "2026-10-14T12:10:53.639Z",
+      "isActive": false,
+      "instructions": "Bacalah wacana stimulus dengan cermat sebelum menjawab pertanyaan. Ujian ini menguji daya nalar kritis dan pemahaman konteks sains lingkungan. Harap tenang dan tertib selama sesi ujian berlangsung.",
+      "settings": {
+        "durationMinutes": 60,
+        "kkm": 70,
+        "requireFullscreen": true,
+        "maxViolationsAllowed": 4,
+        "violationAction": "suspend",
+        "proctorPin": "9922",
+        "shuffleQuestions": false,
+        "shuffleOptions": false,
+        "blockCopyPaste": true,
+        "blockRightClick": true,
+        "showResultToStudent": false,
+        "showExplanationToStudent": false,
+        "preventMultipleSubmissions": true,
+        "autoSaveIntervalSeconds": 5
+      },
+      "createdAt": "2026-10-02T12:10:53.639Z",
+      "questions": [
+        {
+          "id": "lit-q1",
+          "type": "multiple_choice",
+          "passage": "Hutan mangrove di pesisir Indonesia memiliki kapasitas penyerapan karbon biru (blue carbon) hingga 3-5 kali lebih tinggi dibandingkan hutan tropis daratan per hektare. Kerusakan 1 hektare mangrove dapat melepaskan emisi karbon setara dengan pembakaran ribuan liter bahan bakar fosil.",
+          "prompt": "Berdasarkan wacana di atas, apa kesimpulan utama mengenai peran strategis hutan mangrove pesisir terhadap mitigasi krisis iklim global?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hutan mangrove hanya berfungsi sebagai pemecah gelombang tsunami pesisir"
+            },
+            {
+              "id": "B",
+              "text": "Hutan mangrove menyerap karbon biru dalam kapasitas jauh lebih masif dibanding hutan daratan"
+            },
+            {
+              "id": "C",
+              "text": "Hutan mangrove tidak terpengaruh oleh pembakaran bahan bakar fosil"
+            },
+            {
+              "id": "D",
+              "text": "Kerusakan mangrove tidak menimbulkan emisi karbon dioksida"
+            }
+          ],
+          "correctOptionId": "B",
+          "points": 50,
+          "explanation": "Hutan mangrove adalah penyimpan karbon biru alami yang sangat efektif, menyerap 3-5 kali lebih tinggi dari hutan daratan."
+        },
+        {
+          "id": "lit-q2",
+          "type": "true_false",
+          "prompt": "Pernyataan: \"Kadar keasaman (pH) air laut yang menurun drastis akibat peningkatan penyerapan CO2 atmosfer dapat merusak pembentukan cangkang kalsium karbonat pada biota laut.\"",
+          "isTrue": true,
+          "points": 50,
+          "explanation": "Benar. Pengasaman laut (ocean acidification) menghambat kalsifikasi organisme seperti karang dan moluska."
+        }
+      ]
+    },
+    {
+      "id": "exam-1791375496490",
+      "code": "KIK-01",
+      "pin": "1234",
+      "title": "Penilaian Sumatif Tengah Semester 1 ",
+      "subject": "KIK",
+      "gradeClass": "Kelas XII ",
+      "teacherName": "Guru Pengawas / Proktor",
+      "teacherId": "teacher-1",
+      "startTime": "2026-10-07T12:18:16.491Z",
+      "endTime": "2026-10-14T12:18:16.498Z",
+      "isActive": true,
+      "instructions": "1. Layar penuh wajib aktif.\n2. Dilarang berpindah tab.\n3. Autosave aktif berkala.",
+      "settings": {
+        "durationMinutes": 60,
+        "kkm": 75,
+        "requireFullscreen": true,
+        "maxViolationsAllowed": 3,
+        "violationAction": "suspend",
+        "proctorPin": "9922",
+        "shuffleQuestions": false,
+        "shuffleOptions": false,
+        "blockCopyPaste": true,
+        "blockRightClick": true,
+        "showResultToStudent": true,
+        "showExplanationToStudent": true,
+        "preventMultipleSubmissions": true,
+        "autoSaveIntervalSeconds": 5
+      },
+      "questions": [
+        {
+          "id": "q-1791375574851",
+          "type": "multiple_choice",
+          "prompt": "Hobi saya adalah ",
+          "passage": "Hobi saya adalah",
+          "points": 10,
+          "options": [
+            {
+              "id": "A",
+              "text": "Sepakbola "
+            },
+            {
+              "id": "B",
+              "text": "Shopping "
+            },
+            {
+              "id": "C",
+              "text": "Makan "
+            },
+            {
+              "id": "D",
+              "text": "Ngopi"
+            }
+          ],
+          "correctOptionId": "A",
+          "isTrue": true,
+          "correctShortAnswerKeywords": [],
+          "essayRubric": "",
+          "explanation": ""
+        },
+        {
+          "id": "q-1791375639050",
+          "type": "multiple_choice",
+          "prompt": "Ibu kota Jawa Timur ",
+          "passage": "Ibukota Jawa Timur",
+          "points": 10,
+          "options": [
+            {
+              "id": "A",
+              "text": "Aden"
+            },
+            {
+              "id": "B",
+              "text": "Cerme"
+            },
+            {
+              "id": "C",
+              "text": "Surabaya "
+            },
+            {
+              "id": "D",
+              "text": "Jurit"
+            }
+          ],
+          "correctOptionId": "C"
+        },
+        {
+          "id": "q-1791375735827",
+          "type": "multiple_choice",
+          "prompt": "Nama pemain sepak bola dari Portugal ",
+          "passage": "Nama pemain sepak bola dari Portugal",
+          "points": 10,
+          "options": [
+            {
+              "id": "A",
+              "text": "Tugiyo"
+            },
+            {
+              "id": "B",
+              "text": "CR7"
+            },
+            {
+              "id": "C",
+              "text": "Widodo"
+            },
+            {
+              "id": "D",
+              "text": "Udin"
+            }
+          ],
+          "correctOptionId": "C"
+        }
+      ],
+      "createdAt": "2026-10-07T12:18:16.498Z"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub-student-2",
+      "examId": "exam-matematika-x",
+      "studentId": "student-2",
+      "studentName": "Siti Nur Aisyah",
+      "studentNisn": "0068192341",
+      "studentClass": "Kelas X MIPA 1",
+      "startedAt": "2026-10-07T11:29:13.639Z",
+      "lastActiveAt": "2026-10-07T12:11:43.102Z",
+      "submittedAt": "2026-10-07T12:02:33.639Z",
+      "status": "graded",
+      "score": 95,
+      "passedKkm": true,
+      "gradedByTeacher": true,
+      "isLockedByProctor": false,
+      "violations": [],
+      "answers": {
+        "q1": {
+          "questionId": "q1",
+          "selectedOptionId": "B",
+          "updatedAt": "2026-10-07T12:00:00Z"
+        },
+        "q2": {
+          "questionId": "q2",
+          "booleanAnswer": false,
+          "updatedAt": "2026-10-07T11:40:53.639Z"
+        },
+        "q3": {
+          "questionId": "q3",
+          "selectedOptionId": "B",
+          "updatedAt": "2026-10-07T11:47:33.639Z"
+        },
+        "q4": {
+          "questionId": "q4",
+          "shortAnswerText": "autosave",
+          "updatedAt": "2026-10-07T11:54:13.639Z"
+        },
+        "q5": {
+          "questionId": "q5",
+          "essayText": "Sistem tidak boleh langsung menghapus jawaban karena bisa terjadi ketidaksengajaan atau gangguan sistem browser. Guru harus memverifikasi audit log sebelum mengambil keputusan.",
+          "updatedAt": "2026-10-07T12:00:53.639Z"
+        }
+      }
+    },
+    {
+      "id": "sub-student-3",
+      "examId": "exam-matematika-x",
+      "studentId": "student-3",
+      "studentName": "Rian Hidayatullah",
+      "studentNisn": "0065432190",
+      "studentClass": "Kelas X MIPA 1",
+      "startedAt": "2026-10-07T11:40:53.639Z",
+      "lastActiveAt": "2026-10-07T12:07:33.639Z",
+      "submittedAt": "2026-10-07T12:07:33.639Z",
+      "status": "submitted",
+      "score": 65,
+      "passedKkm": false,
+      "gradedByTeacher": true,
+      "isLockedByProctor": false,
+      "violations": [
+        {
+          "id": "v-1",
+          "timestamp": "2026-10-07T11:50:53.639Z",
+          "type": "tab_switch",
+          "description": "Terdeteksi berpindah tab browser saat sedang mengerjakan soal No. 2",
+          "questionIndexAtEvent": 1
+        },
+        {
+          "id": "v-2",
+          "timestamp": "2026-10-07T11:57:33.639Z",
+          "type": "copy_paste_attempt",
+          "description": "Terdeteksi mencoba melakukan copy pada teks stimulus wacana",
+          "questionIndexAtEvent": 3
+        }
+      ],
+      "answers": {
+        "q1": {
+          "questionId": "q1",
+          "selectedOptionId": "A",
+          "updatedAt": "2026-10-07T11:45:53.639Z"
+        },
+        "q2": {
+          "questionId": "q2",
+          "booleanAnswer": false,
+          "updatedAt": "2026-10-07T11:52:33.639Z"
+        },
+        "q3": {
+          "questionId": "q3",
+          "selectedOptionId": "B",
+          "updatedAt": "2026-10-07T11:59:13.639Z"
+        },
+        "q4": {
+          "questionId": "q4",
+          "shortAnswerText": "sinkronisasi",
+          "updatedAt": "2026-10-07T12:04:13.639Z"
+        }
+      }
+    },
+    {
+      "id": "sub-student-4",
+      "examId": "exam-matematika-x",
+      "studentId": "student-4",
+      "studentName": "Anindya Cantika Putri",
+      "studentNisn": "0069023418",
+      "studentClass": "Kelas X MIPA 1",
+      "startedAt": "2026-10-07T11:55:53.639Z",
+      "lastActiveAt": "2026-10-07T12:09:53.639Z",
+      "status": "in_progress",
+      "score": 0,
+      "passedKkm": false,
+      "gradedByTeacher": false,
+      "isLockedByProctor": false,
+      "violations": [
+        {
+          "id": "v-41",
+          "timestamp": "2026-10-07T12:02:33.639Z",
+          "type": "exit_fullscreen",
+          "description": "Keluar dari mode Fullscreen (menekan tombol Escape)",
+          "questionIndexAtEvent": 2
+        }
+      ],
+      "answers": {
+        "q1": {
+          "questionId": "q1",
+          "selectedOptionId": "B",
+          "updatedAt": "2026-10-07T11:59:13.639Z"
+        },
+        "q2": {
+          "questionId": "q2",
+          "booleanAnswer": false,
+          "updatedAt": "2026-10-07T12:05:53.639Z"
+        }
+      }
+    },
+    {
+      "id": "sub_1791375872681_b264a",
+      "examId": "exam-1791375496490",
+      "studentId": "std_0067829102",
+      "studentName": "Kolik afandi",
+      "studentNisn": "0067829102",
+      "studentClass": "Kelas XII ",
+      "startedAt": "2026-10-07T12:24:32.681Z",
+      "lastActiveAt": "2026-10-07T12:24:48.926Z",
+      "status": "submitted",
+      "answers": {
+        "q-1791375574851": {
+          "questionId": "q-1791375574851",
+          "updatedAt": "2026-10-07T12:24:37.626Z",
+          "selectedOptionId": "A"
+        },
+        "q-1791375639050": {
+          "questionId": "q-1791375639050",
+          "updatedAt": "2026-10-07T12:24:42.089Z",
+          "selectedOptionId": "C"
+        },
+        "q-1791375735827": {
+          "questionId": "q-1791375735827",
+          "updatedAt": "2026-10-07T12:24:44.724Z",
+          "selectedOptionId": "B"
+        }
+      },
+      "violations": [],
+      "isLockedByProctor": false,
+      "submittedAt": "2026-10-07T12:24:48.926Z",
+      "score": 67,
+      "passedKkm": false
+    }
+  ],
+  "teachers": [
+    {
+      "id": "teacher-1",
+      "username": "guru_asesmen",
+      "name": "Guru Pengawas / Proktor",
+      "nip": "19840312 200801 1 009",
+      "passwordHash": "GuruProktor2026!",
+      "role": "teacher"
+    },
+    {
+      "id": "teacher-2",
+      "username": "admin_sekolah",
+      "name": "Proktor Asesmen Digital",
+      "nip": "19890520 201402 1 003",
+      "passwordHash": "AdminAsesmen2026#",
+      "role": "teacher"
+    }
+  ],
+  "auditLogs": [],
+  "recaps": {
+    "exam-matematika-x": {
+      "examId": "exam-matematika-x",
+      "examTitle": "Penilaian Sumatif Akhir Semester (PSAS): Matematika & Logika Komputasi",
+      "examCode": "MAT-X-2026",
+      "kkm": 75,
+      "lastRecappedAt": "2026-10-08T02:56:52.666Z",
+      "stats": {
+        "totalSubmissions": 3,
+        "finishedCount": 3,
+        "highestScore": 95,
+        "topStudent": "Siti Nur Aisyah",
+        "lowestScore": 0,
+        "averageScore": 53,
+        "passedCount": 1,
+        "failedCount": 2,
+        "passRate": 33
+      },
+      "rankings": [
+        {
+          "rank": 1,
+          "id": "sub-student-2",
+          "examId": "exam-matematika-x",
+          "studentId": "student-2",
+          "studentName": "Siti Nur Aisyah",
+          "studentNisn": "0068192341",
+          "studentClass": "Kelas X MIPA 1",
+          "startedAt": "2026-10-07T11:29:13.639Z",
+          "lastActiveAt": "2026-10-07T12:11:43.102Z",
+          "submittedAt": "2026-10-07T12:02:33.639Z",
+          "status": "graded",
+          "score": 95,
+          "passedKkm": true,
+          "gradedByTeacher": true,
+          "isLockedByProctor": false,
+          "violations": [],
+          "answers": {
+            "q1": {
+              "questionId": "q1",
+              "selectedOptionId": "B",
+              "updatedAt": "2026-10-07T12:00:00Z"
+            },
+            "q2": {
+              "questionId": "q2",
+              "booleanAnswer": false,
+              "updatedAt": "2026-10-07T11:40:53.639Z"
+            },
+            "q3": {
+              "questionId": "q3",
+              "selectedOptionId": "B",
+              "updatedAt": "2026-10-07T11:47:33.639Z"
+            },
+            "q4": {
+              "questionId": "q4",
+              "shortAnswerText": "autosave",
+              "updatedAt": "2026-10-07T11:54:13.639Z"
+            },
+            "q5": {
+              "questionId": "q5",
+              "essayText": "Sistem tidak boleh langsung menghapus jawaban karena bisa terjadi ketidaksengajaan atau gangguan sistem browser. Guru harus memverifikasi audit log sebelum mengambil keputusan.",
+              "updatedAt": "2026-10-07T12:00:53.639Z"
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "id": "sub-student-3",
+          "examId": "exam-matematika-x",
+          "studentId": "student-3",
+          "studentName": "Rian Hidayatullah",
+          "studentNisn": "0065432190",
+          "studentClass": "Kelas X MIPA 1",
+          "startedAt": "2026-10-07T11:40:53.639Z",
+          "lastActiveAt": "2026-10-07T12:07:33.639Z",
+          "submittedAt": "2026-10-07T12:07:33.639Z",
+          "status": "submitted",
+          "score": 65,
+          "passedKkm": false,
+          "gradedByTeacher": true,
+          "isLockedByProctor": false,
+          "violations": [
+            {
+              "id": "v-1",
+              "timestamp": "2026-10-07T11:50:53.639Z",
+              "type": "tab_switch",
+              "description": "Terdeteksi berpindah tab browser saat sedang mengerjakan soal No. 2",
+              "questionIndexAtEvent": 1
+            },
+            {
+              "id": "v-2",
+              "timestamp": "2026-10-07T11:57:33.639Z",
+              "type": "copy_paste_attempt",
+              "description": "Terdeteksi mencoba melakukan copy pada teks stimulus wacana",
+              "questionIndexAtEvent": 3
+            }
+          ],
+          "answers": {
+            "q1": {
+              "questionId": "q1",
+              "selectedOptionId": "A",
+              "updatedAt": "2026-10-07T11:45:53.639Z"
+            },
+            "q2": {
+              "questionId": "q2",
+              "booleanAnswer": false,
+              "updatedAt": "2026-10-07T11:52:33.639Z"
+            },
+            "q3": {
+              "questionId": "q3",
+              "selectedOptionId": "B",
+              "updatedAt": "2026-10-07T11:59:13.639Z"
+            },
+            "q4": {
+              "questionId": "q4",
+              "shortAnswerText": "sinkronisasi",
+              "updatedAt": "2026-10-07T12:04:13.639Z"
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "id": "sub-student-4",
+          "examId": "exam-matematika-x",
+          "studentId": "student-4",
+          "studentName": "Anindya Cantika Putri",
+          "studentNisn": "0069023418",
+          "studentClass": "Kelas X MIPA 1",
+          "startedAt": "2026-10-07T11:55:53.639Z",
+          "lastActiveAt": "2026-10-07T12:09:53.639Z",
+          "status": "in_progress",
+          "score": 0,
+          "passedKkm": false,
+          "gradedByTeacher": false,
+          "isLockedByProctor": false,
+          "violations": [
+            {
+              "id": "v-41",
+              "timestamp": "2026-10-07T12:02:33.639Z",
+              "type": "exit_fullscreen",
+              "description": "Keluar dari mode Fullscreen (menekan tombol Escape)",
+              "questionIndexAtEvent": 2
+            }
+          ],
+          "answers": {
+            "q1": {
+              "questionId": "q1",
+              "selectedOptionId": "B",
+              "updatedAt": "2026-10-07T11:59:13.639Z"
+            },
+            "q2": {
+              "questionId": "q2",
+              "booleanAnswer": false,
+              "updatedAt": "2026-10-07T12:05:53.639Z"
+            }
+          }
+        }
+      ]
+    },
+    "exam-anbk-literasi": {
+      "examId": "exam-anbk-literasi",
+      "examTitle": "Simulasi ANBK: Asesmen Literasi Membaca & Sains Lingkungan",
+      "examCode": "LIT-XI-2026",
+      "kkm": 70,
+      "lastRecappedAt": "2026-10-08T02:56:52.667Z",
+      "stats": {
+        "totalSubmissions": 0,
+        "finishedCount": 0,
+        "highestScore": 0,
+        "topStudent": "-",
+        "lowestScore": 0,
+        "averageScore": 0,
+        "passedCount": 0,
+        "failedCount": 0,
+        "passRate": 0
+      },
+      "rankings": []
+    },
+    "exam-1791375496490": {
+      "examId": "exam-1791375496490",
+      "examTitle": "Penilaian Sumatif Tengah Semester 1 ",
+      "examCode": "KIK-01",
+      "kkm": 75,
+      "lastRecappedAt": "2026-10-08T02:56:52.667Z",
+      "stats": {
+        "totalSubmissions": 1,
+        "finishedCount": 1,
+        "highestScore": 67,
+        "topStudent": "Kolik afandi",
+        "lowestScore": 67,
+        "averageScore": 67,
+        "passedCount": 0,
+        "failedCount": 1,
+        "passRate": 0
+      },
+      "rankings": [
+        {
+          "rank": 1,
+          "id": "sub_1791375872681_b264a",
+          "examId": "exam-1791375496490",
+          "studentId": "std_0067829102",
+          "studentName": "Kolik afandi",
+          "studentNisn": "0067829102",
+          "studentClass": "Kelas XII ",
+          "startedAt": "2026-10-07T12:24:32.681Z",
+          "lastActiveAt": "2026-10-07T12:24:48.926Z",
+          "status": "submitted",
+          "answers": {
+            "q-1791375574851": {
+              "questionId": "q-1791375574851",
+              "updatedAt": "2026-10-07T12:24:37.626Z",
+              "selectedOptionId": "A"
+            },
+            "q-1791375639050": {
+              "questionId": "q-1791375639050",
+              "updatedAt": "2026-10-07T12:24:42.089Z",
+              "selectedOptionId": "C"
+            },
+            "q-1791375735827": {
+              "questionId": "q-1791375735827",
+              "updatedAt": "2026-10-07T12:24:44.724Z",
+              "selectedOptionId": "B"
+            }
+          },
+          "violations": [],
+          "isLockedByProctor": false,
+          "submittedAt": "2026-10-07T12:24:48.926Z",
+          "score": 67,
+          "passedKkm": false
+        }
+      ]
+    }
+  }
+}
